@@ -1,3 +1,7 @@
+# Workshop
+
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/chalcedonyt/gcp-gke-workshop.git)
+
 # Cloud Firestore Quickstart
 
 ## Introduction
@@ -33,7 +37,7 @@ Follow these steps to setup and run the quickstart:
     firebase serve
     ```
  1. As indicated, open [http://localhost:5000](http://localhost:5000) in your browser and try out the app.
- 
+
 ## Support
 
 - [Firebase Support](https://firebase.google.com/support/)
