@@ -10,8 +10,6 @@ You have written your amazing app, how do you deploy it? This workshop covers a 
 Click the **Start** button to move to the next step.
 
 
-
-
 ## What is Cloud Shell?
 
 Before we start, let's familiarize ourselves with the environment.
@@ -51,3 +49,29 @@ gcloud projects --help
 ```
 
 This shows other parameters you can pass to `gcloud projects`.
+
+
+### Set your active project
+```bash
+gcloud config set project PROJECT_ID
+```
+
+Click **Next** to continue setting up the application.
+
+## Understanding the application
+
+Before we deploy an application, we'll need to understand how it works. 
+The application is based on a [Firestore lab by Google Cloud](https://codelabs.developers.google.com/codelabs/firestore-web/#0) - read it to understand how to run the application.
+
+#### Creating a Firebase project
+
+This application uses Firestore (which requires a Firebase project) to store its data.
+Open the Firebase console at https://console.firebase.google.com/ and Create a project, selecting the project that you have created. ***(Don't create a new project!)***
+
+Select the Blaze (Pay as you go) plan - don't worry, you should be staying well within the free tier in this lab.
+
+#### Create your Firestore Database
+
+Firestore is a managed NoSQL database on Google Cloud Platform.
+
+![alt text](tutorial-images/Firestore.png "Creating firebase instance")
